@@ -3,7 +3,7 @@ import json #by ctzfamioy
 import os
 
 ARQ_API_URL = "https://arq.hamker.in"
-ARQ_API_KEY =  "KGTHQB-IKDNAI-XXFCND-VDZFQI-ARQ"
+ARQ_API_KEY =  "NFCBDZ-APYXWZ-LINBGL-ARKRKM-ARQ"
 
 def get_user_list(config, key):
     with open('{}/VegetaRobot/{}'.format(os.getcwd(), config),
@@ -17,17 +17,17 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 12345   # integer value, dont use ""
-    API_HASH = "awew"
+    API_ID = 27500064   # integer value, dont use ""
+    API_HASH = "690dc5633ef234f04f3825a7c1ad0272"
     TOKEN = "wow"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    SQLALCHEMY_DATABASE_URI = "" #Use Your ElephantSQL
-    OWNER_ID = 1491497760  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "nandhaxd"
-    SUPPORT_CHAT = 'vegetasupport'  #Your own group for support, do not add the @
+    SQLALCHEMY_DATABASE_URI = "mongodb+srv://HARI_YT:HARI_YT@cluster0.m8x9vc0.mongodb.net/retryWrites=true&w=majority&appName=Cluster0" #Use Your ElephantSQL
+    OWNER_ID =  6171681404 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "UNNIdud"
+    SUPPORT_CHAT = 'XBOTSUPPORTS'  #Your own group for support, do not add the @
     UPDATES_CHANNEL = 'vegetaUpdates' #Your own channel for Updates of bot, Do not add @
-    JOIN_LOGGER = -1001543354286  #Prints any new group the bot is added to, prints just the name and ID.
-    REM_BG_API_KEY = "dxsh728mZMDmj4ijSZCNPZig"
-    EVENT_LOGS = -1001543354286  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    JOIN_LOGGER = -1002090641762  #Prints any new group the bot is added to, prints just the name and ID.
+    REM_BG_API_KEY = "AZb1aLyrziWLUUWNDR7AwMBV"
+    EVENT_LOGS = -1002090641762  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     LOAD = []
     NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
     WEBHOOK = None
