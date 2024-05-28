@@ -23,7 +23,7 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = "mongodb+srv://HARI_YT:HARI_YT@cluster0.m8x9vc0.mongodb.net/retryWrites=true&w=majority&appName=Cluster0" #Use Your ElephantSQL
     OWNER_ID =  6171681404 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "UNNIdud"
-    SUPPORT_CHAT = 'XBOTSUPPORTS'  #Your own group for support, do not add the @
+    SUPPORT_CHAT = ''  #Your own group for support, do not add the @
     UPDATES_CHANNEL = 'vegetaUpdates' #Your own channel for Updates of bot, Do not add @
     JOIN_LOGGER = -1002090641762  #Prints any new group the bot is added to, prints just the name and ID.
     REM_BG_API_KEY = "AZb1aLyrziWLUUWNDR7AwMBV"
