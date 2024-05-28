@@ -19,7 +19,7 @@ class Config(object):
 
     API_ID = 27500064   # integer value, dont use ""
     API_HASH = "690dc5633ef234f04f3825a7c1ad0272"
-    TOKEN = "wow"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "6707187950:AAGf6m_5BDGbvC4e4okosJQNTtBj9Xk2Gmc"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     SQLALCHEMY_DATABASE_URI = "mongodb+srv://HARI_YT:HARI_YT@cluster0.m8x9vc0.mongodb.net/retryWrites=true&w=majority&appName=Cluster0" #Use Your ElephantSQL
     OWNER_ID =  6171681404 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "UNNIdud"
