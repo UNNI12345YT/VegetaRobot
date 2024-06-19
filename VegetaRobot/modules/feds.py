@@ -317,6 +317,7 @@ def user_join_fed(update: Update, context: CallbackContext):
         getuser = sql.search_user_in_fed(fed_id, user_id)
         fed_id = sql.get_fed_id(chat.id)
         info = sql.get_fed_info(fed_id)
+	if isinstance(info['fusers'], dict):
         get_owner = eval(info['fusers'])['owner']
         get_owner = bot.get_chat(get_owner).id
         if user_id == get_owner:
